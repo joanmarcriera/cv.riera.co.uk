@@ -2,6 +2,17 @@
 
 Static CV-oriented landing page for [cv.riera.co.uk](https://cv.riera.co.uk/).
 
+## Usage
+
+To run the site locally for testing:
+
+```bash
+python -m http.server 8000
+# Then visit http://localhost:8000
+```
+
+No build step or dependencies required — this is a pure static HTML/CSS/JavaScript site.
+
 ## Public Site Network
 
 - `cv.riera.co.uk`: CV and operator profile layer
