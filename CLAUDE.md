@@ -29,9 +29,7 @@ cv.riera.co.uk/
 
 ### Key Files
 
-- **index.html**: Marc's profile + experience, 20+ years infrastructure/platform engineering. 
-  Includes nav (Fit, Experience, Credentials, Contact), switcher for portfolio index (Cmd+K), 
-  and footer links to other sites.
+- **index.html**: Short career front page: headline, availability, four delivery-record panels, CV download and an "ask for more information" email link. Experience and credentials live on riera.co.uk; the CV PDF is served from `https://riera.co.uk/assets/marc-riera_cv.pdf`. Facts come only from the master CV; the withdrawn "35 to 9", "94%" and "500%" transfer figures must never return. No salaries or day rates, no em dashes in page text.
   
 - **styles.css**: Portfolio design system (oklch tokens: paper, ink, accent). Shared across all 
   Riera sites. Do not edit carelessly — changes affect the entire network.
