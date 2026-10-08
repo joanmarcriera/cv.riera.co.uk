@@ -867,3 +867,33 @@ button { font: inherit; }
   .tl-row { grid-template-columns: 1fr; gap: 6px; }
   .audit-form .form-row { grid-template-columns: 1fr; }
 }
+
+/* ─── Hero calls to action, section footnote ─── */
+.hero-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
+.btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  padding: 13px 22px;
+  border: 1px solid var(--line-2);
+  border-radius: var(--radius);
+  font-size: 0.92rem;
+  font-weight: 500;
+  color: var(--ink);
+  transition: background 160ms, border-color 160ms, color 160ms;
+}
+.btn:hover { border-color: var(--ink); }
+.btn-primary { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+.btn-primary:hover { background: var(--accent); border-color: var(--accent); }
+.signal-row a { border-bottom: 1px solid var(--line-2); }
+.sec-foot { margin-top: 22px; font-size: 0.92rem; color: var(--ink-2); }
+.sec-foot a { color: var(--ink); border-bottom: 1px solid var(--line-2); }
+
+/* Footer grid: long hostnames overflowed the viewport on phones */
+.chrome-footer .inner > div { min-width: 0; }
+@media (max-width: 960px) {
+  .brand .sub { display: none; }
+  .hero-cta .btn { flex: 1 1 auto; }
+}
+@media (max-width: 560px) {
+  .foot-grid { grid-template-columns: minmax(0, 1fr); }
+  .foot-bottom { flex-direction: column; align-items: flex-start; gap: 6px; }
+}
