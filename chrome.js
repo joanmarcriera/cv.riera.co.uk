@@ -4,8 +4,8 @@
  */
 
 const SITES = [
-  { id: 'hub', num: '00', url: 'riera.co.uk',     href: 'https://riera.co.uk/',        title: 'Portfolio',           desc: 'The index. Commercial entry point and the map of everything.',   tag: 'index' },
-  { id: 'cv',  num: '01', url: 'cv.riera.co.uk',  href: 'https://cv.riera.co.uk/',     title: 'Curriculum vitae',    desc: 'Platform engineering and infrastructure leadership profile.',    tag: 'career' },
+  { id: 'hub', num: '00', url: 'riera.co.uk',     href: 'https://riera.co.uk/',        title: 'Profile',             desc: 'Career profile, CV and contact. The index of the other sites.',  tag: 'index' },
+  { id: 'cv',  num: '01', url: 'cv.riera.co.uk',  href: 'https://cv.riera.co.uk/',     title: 'Curriculum vitae',    desc: 'Short career front page: CV download and contact.',              tag: 'career' },
   { id: 'cxo', num: '02', url: 'cxo.riera.co.uk', href: 'https://cxo.riera.co.uk/',    title: 'CTO playbook',        desc: 'The strategy and operating-model lens. Shifts as scope widens.',  tag: 'strategy' },
   { id: 'sme', num: '03', url: 'sme.riera.co.uk', href: 'https://sme.riera.co.uk/',    title: 'SME automation',      desc: 'The inspectable stack behind the paid Automation Audit.',         tag: 'practice' },
   { id: 'cnc', num: '04', url: 'cnc.riera.co.uk', href: 'https://cnc.riera.co.uk/',    title: 'CNCraft',             desc: 'Prompt to CNC-ready output. SVG, DXF, plotter, G-code.',          tag: 'tool' },
